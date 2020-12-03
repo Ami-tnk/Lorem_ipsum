@@ -43,10 +43,6 @@ a {
   font-size: 16px;
 }
 
-main {
-  width: 100%;
-}
-
 .main-visual {
   width: 100%;
   height: 650px;
@@ -59,9 +55,9 @@ main {
   font-size: 64px;
   color: #fafafa;
   margin: 0 auto;
+  text-align: center;
   padding-top: 200px;
   padding-bottom: 10px;
-  text-align: center;
 }
 
 .main-visual-text {
@@ -69,6 +65,106 @@ main {
   color: #fafafa;
   margin: 0 auto;
   text-align: center;
+}
+
+main {
+  width: 100%;
+}
+
+.main-content {
+  width: 100%;
+  height: 900px; /* 最後に消す */
+}
+
+.main-content:nth-child(odd) {
+  width: 100%;
+  background-color: #eceff1;
+}
+
+.main-content-title {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+h2:after {
+  content: "";
+  margin: 8px auto 0 auto; /*線の位置*/
+  display: block;
+  width: 70px; /*線の長さ*/
+  height: 3px; /*線の太さ*/
+  background-color: #ec715f; /*線の色*/
+  border-radius: 2px; /*線の丸み*/
+}
+
+.main-content-text {
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.main-portfolio {
+  width: 920px;
+  margin: 0 auto;
+}
+.main-portfolio-title {
+  font-size: 32px;
+  color: #000000;
+  margin-top: 90px;
+  padding-bottom: 8px;
+  text-align: center;
+  border-bottom: 3px 70px solid #ec715f;
+}
+
+.main-portfolio-text {
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.portfolio-body-img {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 90px auto;
+  width: 920px;
+}
+
+.portfolio-img {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-img:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+
+.portfolio-img:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin: 0 10px;
+}
+
+.portfolio-img:nth-child(3) {
+  background-image: url(img/write.jpg);
+}
+
+.portfolio-img:nth-child(4) {
+  background-image: url(img/webcamp.png);
+  margin-top: 10px;
+}
+
+.portfolio-img:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin: 10px 10px 0 10px;
+}
+
+.portfolio-img:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+  margin-top: 10px;
 }
 
 footer {
