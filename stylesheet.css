@@ -167,6 +167,46 @@ h2:after {
   margin-top: 10px;
 }
 
+.main-feature {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feature-body {
+  width: 100%;
+  padding-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-strength1,
+.feature-strength2,
+.feature-strength3 {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.feature-strength2 {
+  margin: 0 10px;
+}
+
+.icon {
+  margin: 0 auto;
+  text-align: center;
+}
+
+i {
+  font-size: 60px;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px auto;
+  text-align: center;
+}
+
 footer {
   width: 100%;
   height: 60px;
