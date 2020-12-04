@@ -109,7 +109,7 @@ h2:after {
   text-align: center;
 }
 
-.main-portfolio {
+#main-portfolio {
   width: 920px;
   margin: 0 auto;
 }
@@ -170,7 +170,7 @@ h2:after {
   margin-top: 10px;
 }
 
-.main-feature {
+#main-feature {
   width: 980px;
   margin: 0 auto;
 }
@@ -209,7 +209,7 @@ i {
   text-align: center;
 }
 
-.main-plofile {
+#main-plofile {
   width: 1024px;
 }
 
@@ -245,7 +245,7 @@ i {
   font-size: 16px;
 }
 
-.main-contact {
+#main-contact {
   width: 800px;
   margin: 0 auto;
 }
@@ -385,10 +385,17 @@ footer {
 
   .main-content {
     width: 90%;
+    padding: 90px 0;
   }
 
-  .main-portfolio {
-    width: 90%;
+  .main-content-text {
+    margin: 0 10%;
+  }
+
+  #main-portfolio {
+    width: 100%;
+    padding: 0 5%;
+    padding: 90px 0;
   }
 
   .main-portfolio-text {
@@ -428,7 +435,7 @@ footer {
     margin-top: 0px;
   }
 
-  .main-feature {
+  #main-feature {
     width: 90%;
   }
 
@@ -437,11 +444,12 @@ footer {
   }
 
   .feature-strength2 {
-    margin: 10px auto;
+    margin: 20px auto;
   }
 
-  .main-plofile {
-    width: 90%;
+  #main-plofile {
+    width: 100%;
+    margin: 0 auto;
   }
 
   .plofile-body {
@@ -458,17 +466,21 @@ footer {
   .plofile-text {
     width: 90%;
     margin: 0 auto;
+    text-align: center;
   }
 
   .plofile-text h5 {
     padding: 20px 0 5px 0;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .plofile-text p {
     padding-bottom: 0px;
+    padding: 0 5%;
   }
 
-  .main-contact {
+  #main-contact {
     width: 90%;
   }
 
