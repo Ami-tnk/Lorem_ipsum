@@ -110,7 +110,6 @@ h2:after {
 }
 
 #main-portfolio {
-  width: 920px;
   margin: 0 auto;
 }
 .main-portfolio-title {
@@ -171,7 +170,6 @@ h2:after {
 }
 
 #main-feature {
-  width: 980px;
   margin: 0 auto;
 }
 
@@ -209,10 +207,6 @@ i {
   text-align: center;
 }
 
-#main-plofile {
-  width: 1024px;
-}
-
 .plofile-body {
   width: 1024px;
   display: flex;
@@ -246,7 +240,6 @@ i {
 }
 
 #main-contact {
-  width: 800px;
   margin: 0 auto;
 }
 
