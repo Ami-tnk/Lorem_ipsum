@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   width: 100%;
   height: 70px;
@@ -73,7 +77,7 @@ main {
 
 .main-content {
   width: 100%;
-  padding-bottom: 90px;
+  padding: 90px 0;
 }
 
 .main-content:nth-child(odd) {
@@ -84,7 +88,6 @@ main {
 .main-content-title {
   font-size: 32px;
   color: #000000;
-  padding-top: 90px;
   padding-bottom: 8px;
   text-align: center;
 }
@@ -113,13 +116,13 @@ h2:after {
 .main-portfolio-title {
   font-size: 32px;
   color: #000000;
-  margin-top: 90px;
   padding-bottom: 8px;
   text-align: center;
   border-bottom: 3px 70px solid #ec715f;
 }
 
 .main-portfolio-text {
+  font-size: 16px;
   margin: 0 auto;
   padding: 30px 0;
   text-align: center;
@@ -129,7 +132,6 @@ h2:after {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding-bottom: 90px;
   width: 920px;
 }
 
@@ -175,7 +177,6 @@ h2:after {
 
 .feature-body {
   width: 100%;
-  padding-bottom: 90px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -210,7 +211,6 @@ i {
 
 .main-plofile {
   width: 1024px;
-  padding-bottom: 90px;
 }
 
 .plofile-body {
@@ -267,12 +267,17 @@ i {
   margin: 0 auto;
 }
 
+.contact-information {
+  padding-left: 40px;
+}
+
 .contact-information h5 {
   font-size: 20px;
   padding-bottom: 5px;
 }
 
 .contact-information p {
+  padding-left: 20px;
   padding-bottom: 20px;
 }
 
@@ -297,4 +302,221 @@ footer {
   color: #fafafa;
   text-align: center;
   line-height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .br-pc {
+    display: block;
+  }
+  .br-sp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .br-pc {
+    display: none;
+  }
+  .br-sp {
+    display: block;
+  }
+
+  header {
+    width: 100%;
+    height: 50px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .container {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  #humberger {
+    position: relative;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin: 5px 30px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+  }
+  #humberger div {
+    position: absolute;
+    left: 2.5px;
+    height: 2px;
+    width: 30px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  #humberger div:nth-of-type(1) {
+    top: 8px;
+  }
+  #humberger div:nth-of-type(2) {
+    top: 18px;
+  }
+  #humberger div:nth-of-type(3) {
+    top: 28px;
+  }
+
+  .main-visual {
+    background-image: url(img/code.png);
+    background-position: center center;
+  }
+
+  .main-visual-title {
+    font-size: 40px;
+  }
+
+  .main-visual-text {
+    font-size: 18px;
+  }
+
+  .main-content {
+    width: 90%;
+  }
+
+  .main-portfolio {
+    width: 90%;
+  }
+
+  .main-portfolio-text {
+    width: 90%;
+  }
+
+  .portfolio-body-img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    width: 300px;
+  }
+  .portfolio-img:nth-child(1) {
+    display: none;
+  }
+
+  .portfolio-img:nth-child(2) {
+    background-image: url(img/websuku.png);
+    margin: 0;
+  }
+
+  .portfolio-img:nth-child(3) {
+    display: none;
+  }
+
+  .portfolio-img:nth-child(4) {
+    background-image: url(img/webcamp.png);
+    margin: 10px 0;
+  }
+
+  .portfolio-img:nth-child(5) {
+    display: none;
+  }
+
+  .portfolio-img:nth-child(6) {
+    background-image: url(img/webcamp-mother.png);
+    margin-top: 0px;
+  }
+
+  .main-feature {
+    width: 90%;
+  }
+
+  .feature-body {
+    display: block;
+  }
+
+  .feature-strength2 {
+    margin: 10px auto;
+  }
+
+  .main-plofile {
+    width: 90%;
+  }
+
+  .plofile-body {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .plofile-img-body {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .plofile-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .plofile-text h5 {
+    padding: 20px 0 5px 0;
+  }
+
+  .plofile-text p {
+    padding-bottom: 0px;
+  }
+
+  .main-contact {
+    width: 90%;
+  }
+
+  .contact-body {
+    width: 90%;
+    display: block;
+  }
+
+  .contact-body-content,
+  .contact-information,
+  .contact-SNS {
+    width: 90%;
+  }
+
+  .contact-information {
+    padding-left: 0px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-information p {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-body-content h5 {
+    font-size: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .contact-tel {
+    padding-top: 20px;
+  }
+
+  .contact-sns {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contact-body-content i {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .contact-body-content i:nth-child(3) {
+    padding: 0 8px;
+  }
 }
