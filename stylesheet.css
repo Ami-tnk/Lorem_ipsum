@@ -73,7 +73,7 @@ main {
 
 .main-content {
   width: 100%;
-  height: 900px; /* 最後に消す */
+  padding-bottom: 90px;
 }
 
 .main-content:nth-child(odd) {
@@ -128,7 +128,8 @@ h2:after {
 .portfolio-body-img {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto 90px auto;
+  margin: 0 auto;
+  padding-bottom: 90px;
   width: 920px;
 }
 
@@ -203,8 +204,89 @@ i {
 .feature-title {
   font-size: 20px;
   color: #000000;
-  padding: 10px auto;
+  margin: 10px auto;
   text-align: center;
+}
+
+.main-plofile {
+  width: 1024px;
+  padding-bottom: 90px;
+}
+
+.plofile-body {
+  width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.plofile-img-body {
+  width: 512px;
+  height: 250px;
+  text-align: center;
+}
+
+.plofile-img {
+  border-radius: 50%; /* 角丸半径を50%にする(=円形にする) */
+  width: 250px; /* ※縦横を同値に */
+  height: 250px; /* ※縦横を同値に */
+}
+
+.plofile-text {
+  width: 512px;
+}
+
+.plofile-text h5 {
+  padding: 5px;
+  font-size: 20px;
+}
+.plofile-text p {
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.main-contact {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-body {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-body-content {
+  width: 400px;
+}
+
+.contact-information,
+.contact-SNS {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.contact-information h5 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.contact-information p {
+  padding-bottom: 20px;
+}
+
+.contact-body-content h5 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.contact-body-content i {
+  font-size: 50px;
+}
+
+.contact-body-content i:nth-child(3) {
+  padding: 0 20px;
 }
 
 footer {
