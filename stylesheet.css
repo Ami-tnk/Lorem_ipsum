@@ -47,7 +47,7 @@ a {
   font-size: 16px;
 }
 
-.main-visual {
+#main-visual {
   width: 100%;
   height: 650px;
   background-image: url(img/mv.png);
@@ -367,7 +367,7 @@ footer {
     top: 28px;
   }
 
-  .main-visual {
+  #main-visual {
     background-image: url(img/code.png);
     background-position: center center;
   }
