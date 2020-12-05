@@ -78,11 +78,7 @@ main {
 .main-content {
   width: 100%;
   padding: 90px 0;
-}
-
-.main-content:nth-child(odd) {
-  width: 100%;
-  background-color: #eceff1;
+  margin: 0 auto;
 }
 
 .main-content-title {
@@ -110,6 +106,8 @@ h2:after {
 }
 
 #main-portfolio {
+  width: 100%;
+  background-color: #eceff1;
   margin: 0 auto;
 }
 .main-portfolio-title {
@@ -207,6 +205,12 @@ i {
   text-align: center;
 }
 
+#main-plofile {
+  width: 100%;
+  background-color: #eceff1;
+  margin: 0 auto;
+}
+
 .plofile-body {
   width: 1024px;
   display: flex;
@@ -255,7 +259,7 @@ i {
 }
 
 .contact-information,
-.contact-SNS {
+.contact-sns {
   width: 200px;
   margin: 0 auto;
 }
@@ -270,8 +274,8 @@ i {
 }
 
 .contact-information p {
-  padding-left: 20px;
   padding-bottom: 20px;
+  text-decoration: underline;
 }
 
 .contact-body-content h5 {
@@ -382,13 +386,7 @@ footer {
   }
 
   .main-content-text {
-    margin: 0 10%;
-  }
-
-  #main-portfolio {
-    width: 100%;
-    padding: 0 5%;
-    padding: 90px 0;
+    padding: 30px 10%;
   }
 
   .main-portfolio-text {
@@ -401,6 +399,7 @@ footer {
     padding-bottom: 0px;
     width: 300px;
   }
+
   .portfolio-img:nth-child(1) {
     display: none;
   }
@@ -426,10 +425,6 @@ footer {
   .portfolio-img:nth-child(6) {
     background-image: url(img/webcamp-mother.png);
     margin-top: 0px;
-  }
-
-  #main-feature {
-    width: 90%;
   }
 
   .feature-body {
@@ -473,10 +468,6 @@ footer {
     padding: 0 5%;
   }
 
-  #main-contact {
-    width: 90%;
-  }
-
   .contact-body {
     width: 90%;
     display: block;
@@ -486,6 +477,10 @@ footer {
   .contact-information,
   .contact-SNS {
     width: 90%;
+  }
+
+  .contact-body-content {
+    margin: 0 auto;
   }
 
   .contact-information {
